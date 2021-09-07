@@ -41,7 +41,7 @@
 
 <img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/lifeRestart/deploy.png" width="300">
 
-如果您是第一次在该仓库上使用云开发平台，需要按照，将 https://ram.console.aliyun.com/manage/ak 中的AccessKeyID、AccessKeySecret，粘贴配置到GitHub Secret中的AK、SK变量中。具体步骤，请仔细阅读「部署配置」的Step1。
+如果您是第一次在该仓库上使用云开发平台，需要将 https://ram.console.aliyun.com/manage/ak 中的AccessKeyID、AccessKeySecret，粘贴配置到GitHub Secret中的AK、SK变量中。具体步骤，请仔细阅读「部署配置」的Step1。
 
 <img src="https://ecoboost-readme-image.oss-cn-shanghai.aliyuncs.com/feApp/github/lifeRestart/config.png" width="500">
 
