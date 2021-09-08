@@ -6,7 +6,7 @@
         "test": "node test",
         "xlsxTransform": "node utils/xlsxTransform.js data",
         "dev": "webpack serve --open /view/index.html",
-        "build": "webpack --mode production && cp ./view/index.html ./public/ && cp ./view/sw.js ./public/ && cp ./view/light.css ./public/ && cp ./view/dark.css ./public/ && cp -r ./data ./public/ && mv public build"
+        "build": "webpack --mode production && cp ./view/* ./public/ && cp -r ./data ./public/ && mv public build"
     },
     "dependencies": {
         "@babel/core": "^7.15.4",
