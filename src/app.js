@@ -31,7 +31,7 @@ class App{
         const loadingPage = $(`
         <div id="main">
             <div id="title">
-                人生重开模拟器<br>
+                小偶像模拟器<br>
                 <div style="font-size:1.5rem; font-weight:normal;">加载中...</div>
             </div>
         </div>
@@ -44,10 +44,10 @@ class App{
             <button id="rank">排行榜</button>
             <button id="themeToggleBtn">黑</button>
             <div id="title">
-                人生重开模拟器<br>
-                <div style="font-size:1.5rem; font-weight:normal;">这垃圾人生一秒也不想呆了</div>
+                小偶像模拟器<br>
+                <div style="font-size:1.5rem; font-weight:normal;">重生之天选竟是我自己</div>
             </div>
-            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>立即重开</button>
+            <button id="restart" class="mainbtn"><span class="iconfont">&#xe6a7;</span>报名入团</button>
         </div>
         `);
 
@@ -126,7 +126,7 @@ class App{
                                 li.addClass('selected');
                                 this.#talentSelected.add(talent);
                                 if(this.#talentSelected.size==3) {
-                                    talentPage.find('#next').text('开始新人生')
+                                    talentPage.find('#next').text('参加面试！')
                                 }
                             }
                         });
